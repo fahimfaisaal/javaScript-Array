@@ -1,3 +1,3 @@
 # makeFunWithJavaScriptArray
-it's made just for learn javaScript Array deeply & try to implement of all Array methods in javaScript.
-Let's Fun 😁
+it's made just to learn javaScript Array deeply & try to implement all Array methods in JavaScript
+## Let's Fun 😁
