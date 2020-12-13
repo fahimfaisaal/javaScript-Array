@@ -4,12 +4,12 @@ console.clear()
 
 const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 const arrayOfObjects = [
-    { name: 'Fahim Faisal', age: 22, gmail: 'fahimfaisal.soikot@gmail.com'},
-    { name: 'soikot', age: 23, gmail: 'soikot@gmail.com'},
-    { name: 'Ashraful', age: 28, gmail: 'ashraful@gmail.com'},
-    { name: 'Turky', age: 24, gmail: 'turky@gmail.com'},
-    { name: 'Easin', age: 18, gmail: 'easinwebpro@gmail.com'},
-    { name: 'Sourov Hossain', age: 22, gmail: 'sourovhossain@gmail.com'}
+    { name: 'Fahim Faisal', age: 22, gmail: 'fahimfaisal.soikot@gmail.com' },
+    { name: 'soikot', age: 23, gmail: 'soikot@gmail.com' },
+    { name: 'Ashraful', age: 28, gmail: 'ashraful@gmail.com' },
+    { name: 'Turky', age: 24, gmail: 'turky@gmail.com' },
+    { name: 'Easin', age: 18, gmail: 'easinwebpro@gmail.com' },
+    { name: 'Sourov Hossain', age: 22, gmail: 'sourovhossain@gmail.com' }
 ]
 
 let sumOfValue = 0,
