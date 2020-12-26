@@ -25,8 +25,8 @@ function myFlat(arr) {
         if (typeof arr[i] != 'object') {
             newArr.push(arr[i])
         } else for (let j in arr[i]) {
-                newArr.push(arr[i][j])
-            }
+            newArr.push(arr[i][j])
+        }
     }
 
     return newArr
