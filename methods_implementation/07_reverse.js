@@ -7,6 +7,7 @@ console.log(arr)
 
 //* Implementation of reverse method
 const arr2 = [11, 12, 13, 14, 15]
+
 /**
  * @param {Array<any>} array
  * @return {Array<any>}
@@ -16,10 +17,8 @@ function myReverse(array) {
 
     for (let i = array.length - 1; i >= 0; i--) tempArr.push(array[i]);
     
-    for (let i = 0; i < tempArr.length; i++) {
-        array[i] = tempArr[i]
-    }
-
+    for (let i = 0; i < tempArr.length; i++) array[i] = tempArr[i]
+    
     return array;
 }
 
