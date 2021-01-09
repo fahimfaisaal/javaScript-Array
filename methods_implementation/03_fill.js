@@ -7,11 +7,10 @@ console.log(fillArray)
 //! Remember that fill method is mutable cause it's don't return a new Array
 console.log(fillArray === arr1)
 
-
-//# Implementation of fill method
 const arr2 = [6, 7, 8, 9, 10]
 
 /**
+ * # Implementation of fill method
  * @param {Array} arr
  * @param {anyType} el
  * @param {number} start

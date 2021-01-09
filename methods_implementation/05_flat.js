@@ -12,9 +12,8 @@ const arrArray = [
 const flatArr = arrArray.flat()
 console.log('Built in Method ->', flatArr)
 
-
-//# Implementation of flat method
 /**
+ * # Implementation of flat method
  * @param {Array <anyType>} arr
  * @return {new Array}
  */

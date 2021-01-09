@@ -36,21 +36,20 @@ arr1.forEach((value, index, array) => {
 
 let arrayOfNames = [],
     arrayOfAges = [],
-    arrayOfGmails = []
+    arrayOfGmail = []
 
 arrayOfObjects.forEach(item => {
     arrayOfNames.push(item['name'])
     arrayOfAges.push(item['age'])
-    arrayOfGmails.push(item['gmail'])
+    arrayOfGmail.push(item['gmail'])
 })
 
-// console.log(arrayOfNames, arrayOfAges, arrayOfGmails)
-
-//# Implementation of forEach method
+// console.log(arrayOfNames, arrayOfAges, arrayOfGmail)
 
 sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
 
 /**
+ * # Implementation of forEach method
  * @param {Array<anyType>} arr 
  * @param {function} callBack -> {
  * @argument {anyType} arr[i] 
