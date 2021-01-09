@@ -6,8 +6,10 @@ let lastElement = arr.pop()
 
 console.log(lastElement, arr)
 
-//* Implementation of pop() method
-
+/**
+ * # Implementation of pop method
+ * @param {any} arr 
+ */
 function myPop(arr) {
     let lastElement = arr[arr.length - 1]
 
