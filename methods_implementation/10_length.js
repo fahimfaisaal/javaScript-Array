@@ -12,11 +12,9 @@ function myLength(arr) {
     let length = 0;
 
     for (let i = 0; i < Infinity; i++) {
-        if (arr[i] === undefined) break
+        if (arr[i] === undefined) return length;
         length++
     }
-
-    return length
 }
 
 console.log(myLength(arr))
