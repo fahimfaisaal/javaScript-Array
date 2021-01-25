@@ -11,14 +11,14 @@ console.log(findMain)
 /**
  * # Implementation of find method
  * @param {Array} arr
- * @param {function} cb
+ * @param {function} callback
  * @return {any} of arr
  */
-function myFind(arr, cb) {
+function myFind(arr, callback) {
     let matchItem
 
     for (let i = 0; i < arr.length; i++) {
-        if (cb(arr[i], i, arr)) matchItem = arr[i]
+        if (callback(arr[i], i, arr)) matchItem = arr[i]
     }
 
     return matchItem
