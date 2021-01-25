@@ -32,4 +32,4 @@ function myFlat(arr) {
 }
 
 const myFlatArr = myFlat(arrArray)
-console.log('Implementation Method ->', myFlatArr)
+console.log('Implemented Method ->', myFlatArr)
