@@ -36,21 +36,20 @@ arr1.forEach((value, index, array) => {
 
 let arrayOfNames = [],
     arrayOfAges = [],
-    arrayOfGmails = []
+    arrayOfGmail = []
 
 arrayOfObjects.forEach(item => {
     arrayOfNames.push(item['name'])
     arrayOfAges.push(item['age'])
-    arrayOfGmails.push(item['gmail'])
+    arrayOfGmail.push(item['gmail'])
 })
 
-// console.log(arrayOfNames, arrayOfAges, arrayOfGmails)
-
-//# Implementation of forEach method
+// console.log(arrayOfNames, arrayOfAges, arrayOfGmail)
 
 sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
 
 /**
+ * # Implementation of forEach method
  * @param {Array<anyType>} arr 
  * @param {function} callBack -> {
  * @argument {anyType} arr[i] 
@@ -60,9 +59,8 @@ sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
  * @return {undefined}
  */
 function myForEach(arr, callBack) {
-
-    for (let i = 0; i < arr.length; i++) callBack(arr[i], i, arr)
-
+    for (let i = 0; i < arr.length; i++)
+        callBack(arr[i], i, arr)
 }
 
 /**
@@ -86,7 +84,6 @@ myForEach(arr1, (value, index, array) => {
         condition = 1 //* condition is controller of existing inner myForEach function
     })
 })
-
 console.log('Total sum of value is ->', sumOfValue)
 console.log('Total sum of index is ->', sumOfIndex)
 console.log('Total count ->', count)

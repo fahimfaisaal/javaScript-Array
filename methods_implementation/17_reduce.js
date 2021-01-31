@@ -9,6 +9,7 @@ const sum = arr.reduce((accumulator, number) => {
     console.log(`${accumulator} + ${number} =`, accumulator + number)
     return acc + number
 }) //* By Default accumulator is arr[0]
+
 console.log(sum);
 
 //* return an array of object from two array

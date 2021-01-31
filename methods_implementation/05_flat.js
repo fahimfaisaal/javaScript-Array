@@ -12,9 +12,8 @@ const arrArray = [
 const flatArr = arrArray.flat()
 console.log('Built in Method ->', flatArr)
 
-
-//# Implementation of flat method
 /**
+ * # Implementation of flat method
  * @param {Array <anyType>} arr
  * @return {new Array}
  */
@@ -22,15 +21,14 @@ function myFlat(arr) {
     let newArr = []
     
     for (let i in arr) {
-        if (typeof arr[i] != 'object') {
+        if (typeof arr[i] != 'object') 
             newArr.push(arr[i])
-        } else for (let j in arr[i]) {
+        else for (let j in arr[i])
             newArr.push(arr[i][j])
-        }
     }
 
     return newArr
 }
 
 const myFlatArr = myFlat(arrArray)
-console.log('Implementation Method ->', myFlatArr)
+console.log('Implemented Method ->', myFlatArr)
