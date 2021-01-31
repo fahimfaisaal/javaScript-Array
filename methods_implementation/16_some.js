@@ -16,7 +16,7 @@ console.log(isTen, isEleven)
 /**
  * # Implementation of some method
  * @param {anyType} array
- * @param {function} callback -> {
+ * @function callback -> {
  * @argument {anyType} array[i]
  * @argument {number} i
  * @argument {Array<any>} array
@@ -24,15 +24,12 @@ console.log(isTen, isEleven)
  * @return {boolean}
  */
 function mySome(array, callback) {
-
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) 
         if (callback(array[i], i, array)) return true
-    }
 
     return false
 }
 
 const isNine = mySome(arr, item => item === 9)
 const isLess = mySome(arr, item => item < 0)
-
 console.log(isNine, isLess)

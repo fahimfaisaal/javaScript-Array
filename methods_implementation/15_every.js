@@ -12,7 +12,7 @@ console.log(every, every2)
 /**
  * # Implementation of every method
  * @param {Array<any>} arr
- * @param {function} callback -> {
+ * @function callback -> {
  * @argument {any} arr[i]
  * @argument {number} i
  * @argument {Array<any>} arr
@@ -20,15 +20,12 @@ console.log(every, every2)
  * @return {boolean}
  */
 function myEvery(arr, callback) {
-
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) 
         if (!callback(arr[i], i, arr)) return false;
-    }
 
     return true;
 }
 
 every = myEvery(arr, item => item === 1)
 every2 = myEvery(arr2, item => item === 1)
-
 console.log(every, every2)

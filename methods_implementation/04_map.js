@@ -21,7 +21,8 @@ const mapArr = arr.map((item, index, array) => {
 function myMap(arr, callBack) {
     let newArr = []
 
-    for (let i = 0; i < arr.length; i++) newArr.push(callBack(arr[i], i, arr))
+    for (let i = 0; i < arr.length; i++)
+        newArr.push(callBack(arr[i], i, arr))
 
     return newArr
 }
@@ -29,7 +30,6 @@ function myMap(arr, callBack) {
 const mapArr2 = myMap(arr, item => {
     return item * 2
 })
-
 // console.log(mapArr2)
 
 //* play with map & reduceRight 😁

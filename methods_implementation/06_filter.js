@@ -4,7 +4,6 @@ console.clear()
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const evenArr = arr.filter(value => value % 2 === 0)
-
 // console.log(evenArr)
 
 /**
@@ -20,9 +19,8 @@ const evenArr = arr.filter(value => value % 2 === 0)
 function myFilter(arr, callBack) {
     let newArr = []
 
-    for (let i = 0; i < arr.length; i++) {
-        if (callBack(arr[i], i, arr)) newArr.push(arr[i])        
-    }
+    for (let i = 0; i < arr.length; i++) 
+        if (callBack(arr[i], i, arr)) newArr.push(arr[i])
 
     return newArr
 }

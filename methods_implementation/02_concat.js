@@ -32,12 +32,10 @@ function myConcat(arr, ...anyType) {
     for (let i in anyType) {
         //* if anyTypes element are object
         if (typeof anyType[i] == 'object') {
-            for (let j in anyType[i]) {
+            for (let j in anyType[i])
                 newArray.push(anyType[i][j])
-            }
         //* if anyTypes element are primitive
         } else newArray.push(anyType[i])
-        
     }
 
     return newArray
