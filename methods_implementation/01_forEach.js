@@ -59,9 +59,8 @@ sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
  * @return {undefined}
  */
 function myForEach(arr, callBack) {
-
-    for (let i = 0; i < arr.length; i++) callBack(arr[i], i, arr)
-
+    for (let i = 0; i < arr.length; i++)
+        callBack(arr[i], i, arr)
 }
 
 /**
@@ -85,7 +84,6 @@ myForEach(arr1, (value, index, array) => {
         condition = 1 //* condition is controller of existing inner myForEach function
     })
 })
-
 console.log('Total sum of value is ->', sumOfValue)
 console.log('Total sum of index is ->', sumOfIndex)
 console.log('Total count ->', count)

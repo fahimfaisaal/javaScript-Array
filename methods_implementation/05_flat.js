@@ -21,11 +21,10 @@ function myFlat(arr) {
     let newArr = []
     
     for (let i in arr) {
-        if (typeof arr[i] != 'object') {
+        if (typeof arr[i] != 'object') 
             newArr.push(arr[i])
-        } else for (let j in arr[i]) {
+        else for (let j in arr[i])
             newArr.push(arr[i][j])
-        }
     }
 
     return newArr

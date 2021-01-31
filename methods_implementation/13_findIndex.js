@@ -11,16 +11,19 @@ console.log(findIndex)
 
 /**
  * # Implementation of findIndex method
- * @param {any} arr 
- * @param {function} cb
- * @return {index of arr}
+ * @param {Array<any>} arr 
+ * @function callBack -> {
+ * @argument {any} arr[i]
+ * @argument {number} i
+ * @argument {Array<any>} @param arr
+ * }
+ * @return {number} index of @param arr
  */
-function myFindIndex(arr, cb) {
+function myFindIndex(arr, callBack) {
     let index = -1
 
-    for (let i = 0; i < arr.length; i++) {
-        if (cb(arr[i], i, arr)) index = i
-    }
+    for (let i = 0; i < arr.length; i++)
+        if (callBack(arr[i], i, arr)) index = i
 
     return index
 }

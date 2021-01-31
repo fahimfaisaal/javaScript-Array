@@ -10,12 +10,12 @@ console.log('Built in method ->', arrUnshift, arr)
  * # Implementation of unshift method
  * @param {Array<any>} arr
  * @param {any}
- * @return existing length of arr
+ * @return existing length of param arr
  */
 function myUnshift(arr, ...any) {
     const len = any.length,
         operation = arr.length >= len ? arr.length : len,
-        flag = [...arr]
+        flag = [...arr] //* Also can use Array.from(arr)
     
     for (let i = 0; i < operation; i++) {        
         if (i < flag.length) arr[i + len] = flag[i]
