@@ -51,3 +51,8 @@ function div(a, b) {
 }
 
 const arrFunction = [sum, sub, mul, div]
+const operationName = ['sum', 'sub', 'mul', 'div']
+
+arrFunction.forEach((func, index) => {
+    console.log(`${operationName[index]} of 6 and 2`, func(6, 2))
+})
