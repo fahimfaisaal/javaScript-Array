@@ -20,16 +20,14 @@ console.log(findIndex)
  * @return {number} index of @param arr
  */
 function myFindIndex(arr, callBack) {
-    let index = -1
-
     for (let i = 0; i < arr.length; i++)
-        if (callBack(arr[i], i, arr)) index = i
+        if (callBack(arr[i], i, arr)) return i
 
-    return index
+    return -1
 }
 
 let findIndex2 = myFindIndex(arr, (x, i) => {
-    return i === 12
+    return i === 6
 })
 
 console.log(findIndex2)
