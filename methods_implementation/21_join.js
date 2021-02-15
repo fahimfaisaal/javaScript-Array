@@ -12,7 +12,7 @@ console.log(joinArr, arr)
  * @return {string}
  */
 function myJoin(arr, str) {
-    let string = ''
+    let string = new String()
 
     for (let i = 0; i < arr.length; i++)
         string += (arr[i] + (i !== arr.length - 1 ? str : ''))
