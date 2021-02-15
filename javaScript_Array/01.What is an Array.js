@@ -6,9 +6,9 @@ console.clear()
 
 /**
  * # Step-1 - Create an instance of an array
- * Array Literal Pattern-> []
- * Array Constructor Patter-> let arr = new Array()
- * Array Factory Patter-> let arr = Array()
+ * Array Literal Pattern -> []
+ * Array Constructor Pattern -> let arr = new Array()
+ * Array Factory Pattern -> let arr = Array()
  */
 
 //* Array Literal
