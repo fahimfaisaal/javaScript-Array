@@ -1,10 +1,10 @@
 console.clear()
 
-//* it's used for pick an array item by index number
+//* it's used for pick an array index by index number or array item
 const arr = [1, 2, 13, 4, 5, 11, 7];
 
 let findIndex = arr.findIndex((x, i) => {
-    return i === 5
+    return x === 11
 })
 
 console.log(findIndex)
