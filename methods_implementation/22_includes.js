@@ -15,8 +15,13 @@ console.log(is10InArr)
  * @return {boolean}
  */
 function myIncludes(arr, el, fromIndex = 0) {
-    for (let i = fromIndex; i < arr.length; i++)
-        if (el === arr[i]) return true
+    const len = arr.length
+
+    for (let i = fromIndex; i < len; i++) {
+        if (el === arr[i]) {
+            return true
+        }
+    }
 
     return false
 }

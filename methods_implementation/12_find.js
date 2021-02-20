@@ -21,10 +21,13 @@ function myFind(arr, callback) {
     const len = Math.ceil(arr.length / 2)
 
     for (let i = 0, j = arr.length - 1; i < len; i++, j--) {
-        if (callback(arr[i], i, arr))
+        if (callback(arr[i], i, arr)) {
             return arr[i]
-        if (callback(arr[j], j, arr)) 
+        }
+
+        if (callback(arr[j], j, arr)) {
             return arr[j]
+        }
     }
 
     return undefined;

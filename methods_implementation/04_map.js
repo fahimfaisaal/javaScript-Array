@@ -19,10 +19,12 @@ const mapArr = arr.map((item, index, array) => {
  * @return {immutable Array}
  */
 function myMap(arr, callBack) {
+    const len = arr.length
     let newArr = []
 
-    for (let i = 0; i < arr.length; i++)
+    for (let i = 0; i < len; i++) {
         newArr.push(callBack(arr[i], i, arr))
+    }
 
     return newArr
 }

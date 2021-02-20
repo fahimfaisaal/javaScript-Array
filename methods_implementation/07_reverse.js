@@ -7,7 +7,7 @@ console.log(arr.reverse())
 /**
  * # Implementation of reverse method
  * @param {Array<any>} array
- * @return {Array<any>} reverse array of @param array
+ * @return {Array<any>} reverse array of array
  */
 function myReverse(array) {
     let fromEnd = array.length - 1,

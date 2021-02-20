@@ -17,9 +17,12 @@ const arr2 = [6, 7, 8, 9, 10]
  * @param {number} end
  * @return {Array}
  */
-function myFill(arr, el, start = 0, end = arr.length) {  
-    for (let i = start; i < (end > arr.length ? arr.length : end); i++)
+function myFill(arr, el, start = 0, end = arr.length) {
+    const len = arr.length
+    
+    for (let i = start; i < (end > len ? len : end); i++) {
         arr[i] = el
+    }
 
     return arr
 }

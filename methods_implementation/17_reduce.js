@@ -7,7 +7,7 @@ const arr = [1, 2, 3, 4, 5]
 
 const sum = arr.reduce((accumulator, number) => {
     console.log(`${accumulator} + ${number} =`, accumulator + number)
-    return acc + number
+    return accumulator + number
 }) //* By Default accumulator is arr[0]
 
 console.log(sum);
@@ -61,9 +61,12 @@ console.log(modeOfVotes)
  * @param {any} initializer -> initializer by default arr[0]
  * @return @param initializer
  */
-function myReduce(arr, callBack, initializer = arr[0]) {    
-    for (let i = initializer === arr[0] ? 1 : 0; i < arr.length; i++)
-        initializer = callBack(initializer, arr[i], i, arr)      
+function myReduce(arr, callBack, initializer = arr[0]) {
+    const len = arr.length
+
+    for (let i = initializer === arr[0] ? 1 : 0; i < len; i++) {
+        initializer = callBack(initializer, arr[i], i, arr)        
+    }      
 
     return initializer
 }

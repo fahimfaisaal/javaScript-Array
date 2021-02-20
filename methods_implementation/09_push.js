@@ -13,8 +13,12 @@ console.log(arr)
  * @return {any} existing array
  */
 function myPush(arr, ...any) {
-    for (let i = arr.length, j = 0; j < any.length; i++, j++)
+    const arrLen = arr.length,
+        anyLen = any.length
+    
+    for (let i = arrLen, j = 0; j < anyLen; i++, j++) {
         arr[i] = any[j]
+    }
 
     return arr
 }

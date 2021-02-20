@@ -59,7 +59,9 @@ function myConcat2() {
                 newArr.push(arguments[i][j])
             }
         //* if arguments element are primitive
-        } else newArr.push(arguments[i])        
+        } else {
+            newArr.push(arguments[i]) 
+        }       
     }
 
     return newArr

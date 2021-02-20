@@ -17,10 +17,14 @@ const evenArr = arr.filter(value => value % 2 === 0)
  * @return newArr
  */
 function myFilter(arr, callBack) {
+    const len = arr.length
     let newArr = []
 
-    for (let i = 0; i < arr.length; i++) 
-        if (callBack(arr[i], i, arr)) newArr.push(arr[i])
+    for (let i = 0; i < len; i++) {
+        if (callBack(arr[i], i, arr)) {
+            newArr.push(arr[i])
+        }
+    }
 
     return newArr
 }

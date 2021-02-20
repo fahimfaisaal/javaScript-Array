@@ -10,11 +10,16 @@ console.log(fahimIndex)
  * @param {Array<any>} arr
  * @param {any} item
  * @param {number} start index
- * @return {number} index
+ * @return {number} index number of the item if not found then return -1
  */
 function myIndexOf(arr, item, start = 0) {
-    for (let i = start; i < arr.length; i++)
-        if (item === arr[i]) return i
+    const len = arr.length
+
+    for (let i = start; i < len; i++) {
+        if (item === arr[i]) {
+            return i
+        }
+    }
 
     return -1
 }

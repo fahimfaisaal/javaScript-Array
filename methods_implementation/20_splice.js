@@ -12,6 +12,7 @@ console.log(arr, spliceArr)
  * @return {Array} deleted items
  */
 function mySplice(arr, start = arr.length, remove = arr.length - start, ...push) {
+    const len = arr.length
     let deleteItems = new Array()
 
     //* Delete operation
@@ -23,15 +24,19 @@ function mySplice(arr, start = arr.length, remove = arr.length - start, ...push)
 
     //* separate remain element of arr
     let partition = new Array()
-    for (let j = start + remove; j < arr.length; j++) 
-        partition.push(arr[j])
+    for (let j = start + remove; j < len; j++) {
+        partition.push(arr[j])        
+    }
     
     arr.length -= (partition.length + remove)
 
     //* concat two arrays
-    const pushAndPartition = push.concat(partition)
-    for (let i = 0; i < pushAndPartition.length; i++) 
+    const pushAndPartition = push.concat(partition),
+        pushAndPartitionLen = pushAndPartition.length
+    
+    for (let i = 0; i < pushAndPartitionLen; i++) {
         arr.push(pushAndPartition[i])
+    }
     
     return deleteItems        
 }

@@ -20,8 +20,13 @@ console.log(findIndex)
  * @return {number} index of @param arr
  */
 function myFindIndex(arr, callBack) {
-    for (let i = 0; i < arr.length; i++)
-        if (callBack(arr[i], i, arr)) return i
+    const len = arr.length
+    
+    for (let i = 0; i < len; i++) {
+        if (callBack(arr[i], i, arr)) {
+            return i
+        }
+    }
 
     return -1
 }

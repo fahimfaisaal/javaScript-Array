@@ -9,8 +9,11 @@ console.log(arr.length)
  * @param {any} arr 
  */
 function myLength(arr) {
-    for (let length = 0; length < Infinity; length++)
-        if (arr[length] === undefined) return length;
+    for (let length = 0; length < Infinity; length++) {
+        if (arr[length] === undefined) {
+            return length;
+        }
+    }
 }
 
 /**

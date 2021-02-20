@@ -36,8 +36,12 @@ console.log(nameWithAge)
  * @return @param initializer
  */
 function myReduceRight(arr, callBack, initializer = arr.reverse()[0]) {
-    for (let i = initializer === arr[0] ? 1 : 0; i < arr.length; i++) 
-        initializer = callBack(initializer, arr[i], i, arr)        
+    const len = arr.length,
+        reverseArr = [...arr].reverse()
+
+    for (let i = initializer === arr[0] ? 1 : 0; i < len; i++) {
+        initializer = callBack(initializer, arr[i], i, reverseArr)        
+    }        
 
     return initializer
 }
