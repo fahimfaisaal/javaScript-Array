@@ -14,7 +14,7 @@ const isEleven = arr.some(item => item === 11)
 console.log(isTen, isEleven)
 
 /**
- * # Implementation of some method
+ * @title Implementation of some method
  * @param {anyType} array
  * @function callback -> {
  * @argument {anyType} array[i]

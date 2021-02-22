@@ -6,7 +6,7 @@ const sliceArr = arr.slice(0, 5)
 console.log('Build in method ->', sliceArr)
 
 /**
- * # Implementation of slice method
+ * @title Implementation of slice method
  * @param {Array<any>} arr
  * @param {number} start
  * @param {number} end

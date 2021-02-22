@@ -5,6 +5,7 @@ let spliceArr = arr.splice(1, 2, 2, 3)
 console.log(arr, spliceArr)
 
 /**
+ * @title Implementation of splice method
  * @param {Array} arr
  * @param {number} start
  * @param {number} remove

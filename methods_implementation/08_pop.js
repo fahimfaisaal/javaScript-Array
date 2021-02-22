@@ -7,7 +7,7 @@ let lastElement = arr.pop()
 console.log(lastElement, arr)
 
 /**
- * # Implementation of pop method
+ * @title Implementation of pop method
  * @param {any} arr
  * @return {any} last element of arr
  */

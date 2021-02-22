@@ -7,7 +7,7 @@ const evenArr = arr.filter(value => value % 2 === 0)
 // console.log(evenArr)
 
 /**
- * # Implementation of filter Method
+ * @title Implementation of filter Method
  * @param {Array<any>} arr 
  * @param {function} callBack {
  * @argument {any} arr[i]

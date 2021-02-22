@@ -8,7 +8,7 @@ const is10InArr = arr.includes(10, 9)
 console.log(is10InArr)
 
 /**
- * # Implementation of includes method
+ * @title Implementation of includes method
  * @param {Array<any>} arr
  * @param {any} el
  * @param {number} fromIndex

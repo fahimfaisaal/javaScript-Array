@@ -10,7 +10,7 @@ let findIndex = arr.findIndex((x, i) => {
 console.log(findIndex)
 
 /**
- * # Implementation of findIndex method
+ * @title Implementation of findIndex method
  * @param {Array<any>} arr 
  * @function callBack -> {
  * @argument {any} arr[i]

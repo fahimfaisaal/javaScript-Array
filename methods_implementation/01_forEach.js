@@ -49,7 +49,7 @@ arrayOfObjects.forEach(item => {
 sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
 
 /**
- * # Implementation of forEach method
+ * @title Implementation of forEach method
  * @param {Array<anyType>} arr 
  * @param {function} callBack -> {
  * @argument {anyType} arr[i] 

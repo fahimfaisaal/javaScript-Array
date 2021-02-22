@@ -50,7 +50,7 @@ const modeOfVotes = votes.reduce((modeObj, lan) => {
 console.log(modeOfVotes)
 
 /**
- * # Implementation of reduce method
+ * @title Implementation of reduce method
  * @param {Array<any>} arr
  * @function callback -> {
  * @argument {any} initializer

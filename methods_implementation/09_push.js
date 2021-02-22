@@ -7,7 +7,7 @@ arr.push(11, 12, 13, 14, 15)
 console.log(arr)
 
 /**
- * # Implementation of push method
+ * @title Implementation of push method
  * @param {Array<any>} arr
  * @param {any} any
  * @return {any} existing array

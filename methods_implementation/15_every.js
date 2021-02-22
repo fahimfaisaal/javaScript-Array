@@ -10,7 +10,7 @@ let every2 = arr2.every(item => item === 1)
 console.log(every, every2)
 
 /**
- * # Implementation of every method
+ * @title Implementation of every method
  * @param {Array<any>} arr
  * @function callback -> {
  * @argument {any} arr[i]

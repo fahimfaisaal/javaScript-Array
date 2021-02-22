@@ -6,7 +6,7 @@ let fistElement = arr.shift()
 console.log('Built in method ->', fistElement, arr)
 
 /**
- * # implementation of shift method
+ * @title implementation of shift method
  * @param {Array<any>} arr
  * @return {any} first element of the @param arr
  */

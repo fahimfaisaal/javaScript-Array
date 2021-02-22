@@ -24,7 +24,7 @@ console.log(nameWithAge)
 //* reverse + reduce = reduceRight 😁
 
 /**
- * # Implementation of reduceRight method
+ * @title Implementation of reduceRight method
  * @param {Array<any>} arr
  * @function callback -> {
  * @argument {any} initializer

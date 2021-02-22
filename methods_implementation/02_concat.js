@@ -20,7 +20,7 @@ console.log(arr6)
 
 //! Implementation of Concat Method
 /**
- * # use rest & spread operator
+ * @title use rest & spread operator
  * @param {Array} arr
  * @param {anyType} anyType
  * @return {New immutable array: newArray}
@@ -45,7 +45,7 @@ const arr7 = myConcat(arr1, arr2, arr3, 17, '17', true, myConcat2, {name: 'fahim
 // console.log('New immutable Array =', arr7, 'input Arrays = ', arr1, arr2, arr3)
 
 /**
- * # use arguments property
+ * @title use arguments property
  * @arguments {anything}
  * @return {New immutable array: newArr}
  */

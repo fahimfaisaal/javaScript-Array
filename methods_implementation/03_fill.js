@@ -10,7 +10,7 @@ console.log(fillArray === arr1)
 const arr2 = [6, 7, 8, 9, 10]
 
 /**
- * # Implementation of fill method
+ * @title Implementation of fill method
  * @param {Array} arr
  * @param {anyType} el
  * @param {number} start

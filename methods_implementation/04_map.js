@@ -9,7 +9,7 @@ const mapArr = arr.map((item, index, array) => {
 // console.log(mapArr)
 
 /**
- * # Implementation of map method
+ * @title Implementation of map method
  * @param {anyType} arr 
  * @param {function} callBack -> {
  * @argument {anyType} arr[i]

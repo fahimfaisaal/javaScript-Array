@@ -6,7 +6,7 @@ const fahimIndex = arr.indexOf('fahim', 5)
 console.log(fahimIndex)
 
 /**
- * # Implementation of indexOf
+ * @title Implementation of indexOf
  * @param {Array<any>} arr
  * @param {any} item
  * @param {number} start index

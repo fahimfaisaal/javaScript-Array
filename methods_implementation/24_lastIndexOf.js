@@ -7,7 +7,7 @@ const fahimIndex = arr.lastIndexOf('fahim', 11)
 console.log(fahimIndex)
 
 /**
- * # Implementation of lastIndexOf method
+ * @title Implementation of lastIndexOf method
  * @param arr
  * @param {any} item
  * @param {number} start index

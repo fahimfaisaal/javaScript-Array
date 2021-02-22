@@ -6,7 +6,7 @@ let joinArr = arr.join('-')
 console.log(joinArr, arr)
 
 /**
- * # Implementation of join method
+ * @title Implementation of join method
  * @param {Array<any>} arr
  * @param {string} str
  * @return {string}

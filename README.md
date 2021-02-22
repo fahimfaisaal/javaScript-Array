@@ -1,3 +1,29 @@
 # Make Fun With javaScript Array
-It's made just to learn javaScript Array deeply & try to implement all Array methods in JavaScript.
-## Let's Fun 😁
+
+### Implementation array prototype methods
+
+1. [forEach](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/01_forEach.js)
+2. [map](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/04_map.js)
+3. [filter](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/06_filter.js)
+4. [concat](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/02_filter.js)
+5. [fill](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/03_fill.js)
+6. [flat](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/05_flat.js)
+7. [reverse](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/07_reverse.js)
+8. [pop](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/08_pop.js)
+9. [push](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/09_push.js)
+10. [shift](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/10_shift.js)
+11. [unshift](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/11_unshift.js)
+12. [find](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/12_find.js)
+13. [findIndex](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/13_findIndex.js)
+14. [length](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/14_length.js)
+15. [every](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/15_every.js)
+16. [some](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/16_some.js)
+17. [reduce](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/17_reduce.js)
+18. [reduceRight](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/18_reduceRight.js)
+19. [slice](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/19_slice.js)
+20. [splice](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/20_splice.js)
+21. [join](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/21_join.js)
+22. [includes](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/22_includes.js)
+23. [indexOf](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/23_indexOf.js)
+24. [lastIndexOf](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/24_lastIndexOf.js)
+25. [copyWithin](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/25_copyWithin.js)

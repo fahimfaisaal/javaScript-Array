@@ -8,7 +8,7 @@ let findMain = arr.find((item, index, arr) => item === 'fahim')
 console.log(findMain)
 
 /**
- * # Implementation of find method [it's more faster than built in find 😁]
+ * @title Implementation of find method [it's more faster than built in find 😁]
  * @param {Array<any>} arr
  * @function callback -> {
  * @argument {any} arr[i]
