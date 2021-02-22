@@ -1,6 +1,7 @@
 # Make Fun With javaScript Array
 
-### Implementation array prototype methods
+## Implementation of array prototype methods
+
 | Methods&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | return |
 | ------------------------------------------------- | -------------------------------------- |
 | [forEach](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/01_forEach.js) | undefined |
