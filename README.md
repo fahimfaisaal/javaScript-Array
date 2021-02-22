@@ -28,4 +28,4 @@
 | [includes](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/22_includes.js) | boolean |
 | [indexOf](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/23_indexOf.js) | number |
 | [lastIndexOf](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/24_lastIndexOf.js) | number |
-| [copyWithin](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/25_copyWithin.js) | array (mutable) |
+| [copyWithin](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/25_copywithin.js) | array (mutable) |
