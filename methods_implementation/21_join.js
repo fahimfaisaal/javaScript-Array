@@ -12,10 +12,9 @@ console.log(joinArr, arr)
  * @return {string}
  */
 function myJoin(arr, str) {
-    const len = arr.length
     let string = new String()
 
-    for (let i = 0; i < len; i++) {
+    for (let i = 0, len = arr.length; i < len; i++) {
         string += (arr[i] + (i !== len - 1 ? str : ''))
     }
     

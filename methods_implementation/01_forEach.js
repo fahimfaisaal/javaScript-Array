@@ -58,10 +58,8 @@ sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
  * }
  * @return {undefined}
  */
-function myForEach(arr, callBack) {
-    const len = arr.length
-    
-    for (let i = 0; i < len; i++) {
+function myForEach(arr, callBack) {    
+    for (let i = 0, len = arr.length; i < len; i++) {
         callBack(arr[i], i, arr)
     }
 }

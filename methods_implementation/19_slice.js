@@ -13,10 +13,10 @@ console.log('Build in method ->', sliceArr)
  * @return {Array<any>} new array
  */
 function mySlice(arr, start = 0, end = arr.length) {
-    const len = arr.length
+    const len = end > arr.length ? arr.length : end
     let newArr = []
 
-    for (let i = start; i < (end > len ? len : end); i++) {
+    for (let i = start; i < len; i++) {
         newArr.push(arr[i])
     }
     

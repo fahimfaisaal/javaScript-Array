@@ -30,12 +30,14 @@ function myConcat(arr, ...anyType) {
     let newArray = [...arr]
 
     for (let i in anyType) {
-        //* if anyTypes element are object
+        //* if anyTypes element are object mean array
         if (typeof anyType[i] == 'object') {
             for (let j in anyType[i])
                 newArray.push(anyType[i][j])
         //* if anyTypes element are primitive
-        } else newArray.push(anyType[i])
+        } else {
+            newArray.push(anyType[i])
+        }
     }
 
     return newArray

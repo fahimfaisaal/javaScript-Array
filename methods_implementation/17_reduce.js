@@ -62,11 +62,9 @@ console.log(modeOfVotes)
  * @return @param initializer
  */
 function myReduce(arr, callBack, initializer = arr[0]) {
-    const len = arr.length
-
-    for (let i = initializer === arr[0] ? 1 : 0; i < len; i++) {
+    for (let i = initializer === arr[0] ? 1 : 0, len = arr.length; i < len; i++) {
         initializer = callBack(initializer, arr[i], i, arr)        
-    }      
+    }
 
     return initializer
 }

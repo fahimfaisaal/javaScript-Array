@@ -11,10 +11,9 @@ console.log('Built in method ->', fistElement, arr)
  * @return {any} first element of the @param arr
  */
 function myShift(arr) {
-    const len = arr.length
     let shift = arr[0]
 
-    for (let i = 1, j = 0; i < len; i++, j++) {
+    for (let i = 1, j = 0, len = arr.length; i < len; i++, j++) {
         arr[j] = arr[i]
     }
     

@@ -24,9 +24,7 @@ console.log(isTen, isEleven)
  * @return {boolean}
  */
 function mySome(array, callback) {
-    const len = array.length
-
-    for (let i = 0; i < len; i++) {
+    for (let i = 0, len = array.length; i < len; i++) {
         if (callback(array[i], i, array)) {
             return true
         }
