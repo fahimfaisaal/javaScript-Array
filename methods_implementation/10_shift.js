@@ -11,13 +11,13 @@ console.log('Built in method ->', fistElement, arr)
  * @return {any} first element of the @param arr
  */
 function myShift(arr) {
-    let shift = arr[0]
+    const shift = arr[0]
 
-    for (let i = 1, j = 0, len = arr.length; i < len; i++, j++) {
-        arr[j] = arr[i]
+    for (let i = 0, len = arr.length - 1; i < len; i++) {
+        arr[i] = arr[i + 1]
     }
     
-    arr.length -= 1
+    arr.length--
 
     return shift
 }

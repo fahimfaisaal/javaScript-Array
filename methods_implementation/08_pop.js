@@ -12,9 +12,9 @@ console.log(lastElement, arr)
  * @return {any} last element of arr
  */
 function myPop(arr) {
-    let lastElement = arr[arr.length - 1]
+    const lastElement = arr[arr.length - 1]
 
-    arr.length -= 1
+    arr.length--
 
     return lastElement
 }
