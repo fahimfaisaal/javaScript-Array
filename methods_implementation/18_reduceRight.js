@@ -33,7 +33,7 @@ console.log(nameWithAge)
  * @argument {Array<any>} @param arr
  * }
  * @param {any} initializer -> initializer by default arr[arr.length - 1]
- * @return @param initializer
+ * @returns @param initializer
  */
 function myReduceRight(arr, callBack, initializer = arr.reverse()[0]) {
     const len = arr.length,

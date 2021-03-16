@@ -15,7 +15,7 @@ console.log('Built in Method ->', flatArr)
 /**
  * @title Implementation of flat method
  * @param {Array <anyType>} arr
- * @return {new Array}
+ * @returns {new Array}
  */
 function myFlat(arr) {
     let newArr = []

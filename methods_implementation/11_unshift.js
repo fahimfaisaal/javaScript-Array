@@ -10,7 +10,7 @@ console.log('Built in method ->', arrUnshift, arr)
  * @title Implementation of unshift method
  * @param {Array<any>} arr
  * @param {any}
- * @return existing length of param arr
+ * @returns existing length of param arr
  */
 function myUnshift(arr, ...any) {
     const len = any.length,

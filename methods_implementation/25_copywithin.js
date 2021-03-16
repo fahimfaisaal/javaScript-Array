@@ -11,7 +11,7 @@ console.log(copyWithinArr)
  * @param {number} target
  * @param {number} start -> by default 0
  * @param {number} end -> by default arr.length - 1
- * @return arr
+ * @returns arr
  */
 function myCopyWithin(arr, target, start = 0, end = arr.length - 1) {
     const len = arr.length

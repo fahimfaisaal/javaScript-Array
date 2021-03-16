@@ -17,7 +17,7 @@ console.log(findIndex)
  * @argument {number} i
  * @argument {Array<any>} @param arr
  * }
- * @return {number} index of @param arr
+ * @returns {number} index of @param arr
  */
 function myFindIndex(arr, callBack) {    
     for (

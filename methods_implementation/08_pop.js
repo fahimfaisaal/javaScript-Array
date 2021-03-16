@@ -9,7 +9,7 @@ console.log(lastElement, arr)
 /**
  * @title Implementation of pop method
  * @param {any} arr
- * @return {any} last element of arr
+ * @returns {any} last element of arr
  */
 function myPop(arr) {
     const lastElement = arr[arr.length - 1]

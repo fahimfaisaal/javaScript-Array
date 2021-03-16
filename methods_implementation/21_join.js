@@ -9,7 +9,7 @@ console.log(joinArr, arr)
  * @title Implementation of join method
  * @param {Array<any>} arr
  * @param {string} str
- * @return {string}
+ * @returns {string}
  */
 function myJoin(arr, str) {
     let string = new String()

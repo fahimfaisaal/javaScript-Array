@@ -21,7 +21,7 @@ console.log(isTen, isEleven)
  * @argument {number} i
  * @argument {Array<any>} array
  * }
- * @return {boolean}
+ * @returns {boolean}
  */
 function mySome(array, callback) {
     for (

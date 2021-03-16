@@ -23,10 +23,9 @@ console.log(arr6)
  * @title use rest & spread operator
  * @param {Array} arr
  * @param {anyType} anyType
- * @return {New immutable array: newArray}
+ * @returns {New immutable array: newArray}
  */
-function myConcat(arr, ...anyType) {
-    
+function myConcat(arr, ...anyType) {    
     let newArray = [...arr]
 
     for (let i in anyType) {

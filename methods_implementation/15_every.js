@@ -17,7 +17,7 @@ console.log(every, every2)
  * @argument {number} i
  * @argument {Array<any>} arr
  * }
- * @return {boolean}
+ * @returns {boolean}
  */
 function myEvery(arr, callback) {
     for (

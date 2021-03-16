@@ -10,7 +10,7 @@ console.log(arr, spliceArr)
  * @param {number} start
  * @param {number} remove
  * @param {any} push
- * @return {Array} deleted items
+ * @returns {Array} deleted items
  */
 function mySplice(arr, start = arr.length, remove = arr.length - start, ...push) {
     const len = arr.length

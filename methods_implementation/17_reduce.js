@@ -59,7 +59,7 @@ console.log(modeOfVotes)
  * @argument {Array<any>} @param arr
  * }
  * @param {any} initializer -> initializer by default arr[0]
- * @return @param initializer
+ * @returns @param initializer
  */
 function myReduce(arr, callBack, initializer = arr[0]) {
     for (

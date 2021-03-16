@@ -11,7 +11,7 @@ console.log(fahimIndex)
  * @param arr
  * @param {any} item
  * @param {number} start index
- * @return {number} index number of the item if not found then return -1
+ * @returns {number} index number of the item if not found then return -1
  */
 function myLastIndexOf(arr, item, start = arr.length - 1) {
     for (let i = start; i > -1; i--) {

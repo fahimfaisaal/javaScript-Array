@@ -10,7 +10,7 @@ console.log(arr)
  * @title Implementation of push method
  * @param {Array<any>} arr
  * @param {any} any
- * @return {any} existing array
+ * @returns {any} existing array
  */
 function myPush(arr, ...any) {
     const anyLen = any.length

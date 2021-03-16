@@ -14,7 +14,7 @@ const evenArr = arr.filter(value => value % 2 === 0)
  * @argument {number} i
  * @argument {Array<any>} arr
  * }
- * @return newArr
+ * @returns newArr
  */
 function myFilter(arr, callBack) {
     let newArr = []

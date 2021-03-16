@@ -56,7 +56,7 @@ sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
  * @argument {number} i 
  * @argument {Array<anyType>} arr
  * }
- * @return {undefined}
+ * @returns {undefined}
  */
 function myForEach(arr, callBack) {    
     for (let i = 0, len = arr.length; i < len; i++) {

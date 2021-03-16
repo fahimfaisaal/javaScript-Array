@@ -10,7 +10,7 @@ console.log('Build in method ->', sliceArr)
  * @param {Array<any>} arr
  * @param {number} start
  * @param {number} end
- * @return {Array<any>} new array
+ * @returns {Array<any>} new array
  */
 function mySlice(arr, start = 0, end = arr.length) {
     const len = end > arr.length ? arr.length : end

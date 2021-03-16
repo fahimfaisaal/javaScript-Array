@@ -16,7 +16,7 @@ const mapArr = arr.map((item, index, array) => {
  * @argument {number} i
  * @argument {anyType} arr
  * }
- * @return {immutable Array}
+ * @returns {immutable Array}
  */
 function myMap(arr, callBack) {
     let newArr = []

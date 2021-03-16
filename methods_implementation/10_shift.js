@@ -8,7 +8,7 @@ console.log('Built in method ->', fistElement, arr)
 /**
  * @title implementation of shift method
  * @param {Array<any>} arr
- * @return {any} first element of the @param arr
+ * @returns {any} first element of the @param arr
  */
 function myShift(arr) {
     const shift = arr[0]

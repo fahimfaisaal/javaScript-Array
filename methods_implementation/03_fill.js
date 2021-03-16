@@ -15,7 +15,7 @@ const arr2 = [6, 7, 8, 9, 10]
  * @param {anyType} el
  * @param {number} start
  * @param {number} end
- * @return {Array}
+ * @returns {Array}
  */
 function myFill(arr, el, start = 0, end = arr.length) {
     const len = end > arr.length ? arr.length : end

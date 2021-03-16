@@ -12,7 +12,7 @@ console.log(is10InArr)
  * @param {Array<any>} arr
  * @param {any} el
  * @param {number} fromIndex
- * @return {boolean}
+ * @returns {boolean}
  */
 function myIncludes(arr, el, fromIndex = 0) {
     for (

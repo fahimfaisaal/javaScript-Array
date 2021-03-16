@@ -15,7 +15,7 @@ console.log(findMain)
  * @argument {number} i
  * @argument {Array<any>} @param arr
  * }
- * @return {any} find element arr if it has not it's return undefined
+ * @returns {any} find element arr if it has not it's return undefined
  */
 function myFind(arr, callback) {
     const len = Math.ceil(arr.length / 2),

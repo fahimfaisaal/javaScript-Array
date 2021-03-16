@@ -7,7 +7,7 @@ console.log(arr.length)
 /**
  * @title Implementation of length property as a function [using for loop]
  * @param {any} arr 
- * @return {number} length of arr
+ * @returns {number} length of arr
  */
 function myLength(arr) {
     for (let length = 0; length < Infinity; length++) {
