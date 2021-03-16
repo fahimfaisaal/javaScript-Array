@@ -39,7 +39,10 @@ function myReduceRight(arr, callBack, initializer = arr.reverse()[0]) {
     const len = arr.length,
         reverseArr = [...arr].reverse()
 
-    for (let i = initializer === arr[0] ? 1 : 0; i < len; i++) {
+    for (
+        let i = initializer === arr[0] ? 1 : 0;
+        i < len; i++
+    ) {
         initializer = callBack(initializer, arr[i], i, reverseArr)        
     }        
 

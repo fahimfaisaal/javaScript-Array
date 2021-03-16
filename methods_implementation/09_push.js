@@ -15,7 +15,11 @@ console.log(arr)
 function myPush(arr, ...any) {
     const anyLen = any.length
     
-    for (let i = arr.length, j = 0; j < anyLen; i++, j++) {
+    for (
+        let i = arr.length, j = 0;
+        j < anyLen;
+        i++, j++
+    ) {
         arr[i] = any[j]
     }
 

@@ -13,7 +13,10 @@ console.log('Built in method ->', fistElement, arr)
 function myShift(arr) {
     const shift = arr[0]
 
-    for (let i = 0, len = arr.length - 1; i < len; i++) {
+    for (
+        let i = 0, len = arr.length - 1;
+        i < len; i++
+    ) {
         arr[i] = arr[i + 1]
     }
     

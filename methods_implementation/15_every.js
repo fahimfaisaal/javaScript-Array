@@ -20,7 +20,10 @@ console.log(every, every2)
  * @return {boolean}
  */
 function myEvery(arr, callback) {
-    for (let i = 0, len = arr.length; i < len; i++) {
+    for (
+        let i = 0, len = arr.length;
+        i < len; i++
+    ) {
         if (!callback(arr[i], i, arr)) {
             return false
         }

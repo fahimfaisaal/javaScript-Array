@@ -22,7 +22,10 @@ function myCopyWithin(arr, target, start = 0, end = arr.length - 1) {
     end = end < 0 ? len + end : end
 
     let copyElements = []
-    for (let i = start; i < end && i < len; i++) {
+    for (
+        let i = start;
+        i < end && i < len; i++
+    ) {
         copyElements.push(arr[i])
     }
 

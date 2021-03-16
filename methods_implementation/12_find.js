@@ -18,15 +18,16 @@ console.log(findMain)
  * @return {any} find element arr if it has not it's return undefined
  */
 function myFind(arr, callback) {
-    const len = Math.ceil(arr.length / 2)
+    const len = Math.ceil(arr.length / 2),
+            fromLastLen = arr.length - 1
 
-    for (let i = 0, j = arr.length - 1; i < len; i++, j--) {
+    for (let i = 0; i < len; i++) {
         if (callback(arr[i], i, arr)) {
             return arr[i]
         }
 
-        if (callback(arr[j], j, arr)) {
-            return arr[j]
+        if (callback(arr[fromLastLen - i], fromLastLen, arr)) {
+            return arr[fromLastLen - i]
         }
     }
 
