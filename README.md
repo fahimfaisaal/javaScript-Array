@@ -30,4 +30,4 @@
 | [lastIndexOf](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/24_lastIndexOf.js) | `number`               | `false`  |
 | [copyWithin](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/25_copywithin.js)   | `Array[]` (mutable)    | `false`  |
 | [toString](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/26_toString.js)       | `String`               | `false`  |
-| [constructor](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/27_constructor.js) | `Array[]` (mutable)    | `false`  |
+| [constructor](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/27_constructor.js) | `Array[]` (Immutable)  | `false`  |
