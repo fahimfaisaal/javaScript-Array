@@ -7,7 +7,7 @@
 | [forEach](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/01_forEach.js)         | ` undefined`           | `true`   |
 | [map](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/04_map.js)                 | `Array[]`              | `true`   |
 | [filter](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/06_filter.js)           | `Array[]`              | `true`   |
-| [concat](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/02_filter.js)           | `Array[]`              | `false`  |
+| [concat](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/02_concat.js)           | `Array[]`              | `false`  |
 | [fill](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/03_fill.js)               | `Array[]` (mutable)    | `false`  |
 | [flat](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/05_flat.js)               | `Array[]`              | `false`  |
 | [reverse](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/07_reverse.js)         | `Array[]` (mutable)    | `false`  |
