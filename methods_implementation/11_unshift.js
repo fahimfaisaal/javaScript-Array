@@ -18,7 +18,7 @@ function myUnshift(arr, ...any) {
         flag = [...arr], //* Also can use Array.from(arr)
         flagLen = flag.length
     
-    for (let i = 0; i < operation; i++) {        
+    for (let i = 0; i < operation; i++) {
         if (i < flagLen) {
             arr[i + len] = flag[i]
         }
