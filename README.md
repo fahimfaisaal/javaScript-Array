@@ -12,7 +12,7 @@
 | [flat](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/05_flat.js)               | `Array[]`              | `false`  |
 | [reverse](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/07_reverse.js)         | `Array[]` (mutable)    | `false`  |
 | [pop](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/08_pop.js)                 | `any` last element     | `false`  |
-| [push](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/09_push.js)               | `Array[]` (mutable)    | `false`  |
+| [push](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/09_push.js)               | `number`               | `false`  |
 | [shift](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/10_shift.js)             | `any` first element    | `false`  |
 | [unshift](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/11_unshift.js)         | `Array[]` (mutable)    | `false`  |
 | [find](https://github.com/fahimfaisaal/makeFunWithJavaScriptArray/blob/main/methods_implementation/12_find.js)               | `any`                  | `true`   |
