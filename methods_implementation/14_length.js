@@ -1,8 +1,8 @@
-console.clear()
+console.clear();
 
 //* length the most used property in javaScript
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-console.log(arr.length)
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+console.log(arr.length);
 
 /**
  * @title Implementation of length property as a function [using for loop]
@@ -22,12 +22,12 @@ function myLength(arr) {
  * @param {any} arr 
  */
 function myLength2(arr) {
-    let length = 0
+    let length = 0;
     
     while (arr[length] !== undefined) length++;
 
-    return length
+    return length;
 }
 
-console.log('With for loop ->', myLength(arr))
-console.log('With while loop ->', myLength2(arr))
+console.log('With for loop ->', myLength(arr));
+console.log('With while loop ->', myLength2(arr));

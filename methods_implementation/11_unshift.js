@@ -1,10 +1,10 @@
-console.clear()
+console.clear();
 
 //* unshift method return the length of existing array after replacement
-const arr = [16, 17, 18, 19, 20]
+const arr = [16, 17, 18, 19, 20];
 
-const arrUnshift = arr.unshift(11, 12, 13, 14, 15)
-console.log('Built in method ->', arrUnshift, arr)
+const arrUnshift = arr.unshift(11, 12, 13, 14, 15);
+console.log('Built in method ->', arrUnshift, arr);
 
 /**
  * @title Implementation of unshift method
@@ -16,20 +16,20 @@ function myUnshift(arr, ...any) {
     const len = any.length,
         operation = arr.length >= len ? arr.length : len,
         flag = [...arr], //* Also can use Array.from(arr)
-        flagLen = flag.length
+        flagLen = flag.length;
     
     for (let i = 0; i < operation; i++) {
         if (i < flagLen) {
-            arr[i + len] = flag[i]
+            arr[i + len] = flag[i];
         }
 
         if (i < len) {
-            arr[i] = any[i]
+            arr[i] = any[i];
         }
     }
 
     return arr.length;
 }
 
-const arrUnshift2 = myUnshift(arr, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-console.log('Implemented method ->', arrUnshift2, arr)
+const arrUnshift2 = myUnshift(arr, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log('Implemented method ->', arrUnshift2, arr);

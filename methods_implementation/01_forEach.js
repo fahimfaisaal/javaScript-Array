@@ -1,8 +1,8 @@
 //! forEach method return nothing mean undefined and it's work with existing array element
 
-console.clear()
+console.clear();
 
-const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const arrayOfObjects = [
     { name: 'Fahim Faisal', age: 22, gmail: 'fahimfaisal.soikot@gmail.com' },
     { name: 'soikot', age: 23, gmail: 'soikot@gmail.com' },
@@ -10,43 +10,43 @@ const arrayOfObjects = [
     { name: 'Turky', age: 24, gmail: 'turky@gmail.com' },
     { name: 'Easin', age: 18, gmail: 'easinwebpro@gmail.com' },
     { name: 'Sourov Hossain', age: 22, gmail: 'sourovhossain@gmail.com' }
-]
+];
 
 let sumOfValue = 0,
     sumOfIndex = 0,
     count = 0,
-    condition
+    condition;
 
 arr1.forEach((value, index, array) => {
-    // console.log('Value ->', value, 'Index ->', index, 'Array ->', array)
+    // console.log('Value ->', value, 'Index ->', index, 'Array ->', array);
     sumOfValue += value;
     sumOfIndex += index;
 
    !condition && array.forEach(item => {
-        // console.log('inner array traversing, value ->', item)
-       count++
-       condition = 1 //* condition is controller of existing inner forEach method
+        // console.log('inner array traversing, value ->', item);
+       count++;
+       condition = 1; //* condition is controller of existing inner forEach method
    })
     
 })
 
-// console.log('Total sum of value is ->', sumOfValue)
-// console.log('Total sum of index is ->', sumOfIndex)
-// console.log('Inner array traversing count is ->', count)
+// console.log('Total sum of value is ->', sumOfValue);
+// console.log('Total sum of index is ->', sumOfIndex);
+// console.log('Inner array traversing count is ->', count);
 
 let arrayOfNames = [],
     arrayOfAges = [],
-    arrayOfGmail = []
+    arrayOfGmail = [];
 
 arrayOfObjects.forEach(item => {
-    arrayOfNames.push(item['name'])
-    arrayOfAges.push(item['age'])
-    arrayOfGmail.push(item['gmail'])
+    arrayOfNames.push(item['name']);
+    arrayOfAges.push(item['age']);
+    arrayOfGmail.push(item['gmail']);
 })
 
-// console.log(arrayOfNames, arrayOfAges, arrayOfGmail)
+// console.log(arrayOfNames, arrayOfAges, arrayOfGmail);
 
-sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
+sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0;
 
 /**
  * @title Implementation of forEach method
@@ -60,7 +60,7 @@ sumOfValue = 0, sumOfIndex = 0, count = 0, condition = 0
  */
 function myForEach(arr, callBack) {    
     for (let i = 0, len = arr.length; i < len; i++) {
-        callBack(arr[i], i, arr)
+        callBack(arr[i], i, arr);
     }
 }
 
@@ -74,7 +74,7 @@ function myForEach(arr, callBack) {
  * }
  */
 myForEach(arr1, (value, index, array) => {
-    // console.log('Value ->', value, 'Index ->', index, 'Array ->', array)
+    // console.log('Value ->', value, 'Index ->', index, 'Array ->', array);
     
     sumOfValue += value;
     sumOfIndex += index;
@@ -85,6 +85,6 @@ myForEach(arr1, (value, index, array) => {
         condition = 1 //* condition is controller of existing inner myForEach function
     })
 })
-console.log('Total sum of value is ->', sumOfValue)
-console.log('Total sum of index is ->', sumOfIndex)
-console.log('Total count ->', count)
+console.log('Total sum of value is ->', sumOfValue);
+console.log('Total sum of index is ->', sumOfIndex);
+console.log('Total count ->', count);

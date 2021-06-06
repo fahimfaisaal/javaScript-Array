@@ -1,4 +1,4 @@
-console.clear()
+console.clear();
 
 const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -25,5 +25,5 @@ function myShift(arr) {
     return firstElement;
 }
 
-firstElement = myShift(arr)
-console.log('Implemented method ->', firstElement, arr)
+firstElement = myShift(arr);
+console.log('Implemented method ->', firstElement, arr);

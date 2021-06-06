@@ -1,10 +1,10 @@
-console.clear()
+console.clear();
 
 //* lastIndexOf method as like indexOf method but the deference is it's iterate of the last index
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 'fahim', 10, 'faisal', 11]
-const fahimIndex = arr.lastIndexOf('fahim', 11)
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 'fahim', 10, 'faisal', 11];
+const fahimIndex = arr.lastIndexOf('fahim', 11);
 
-console.log(fahimIndex)
+console.log(fahimIndex);
 
 /**
  * @title Implementation of lastIndexOf method
@@ -16,12 +16,12 @@ console.log(fahimIndex)
 function myLastIndexOf(arr, item, start = arr.length - 1) {
     for (let i = start; i > -1; i--) {
         if (arr[i] === item) {
-            return i
+            return i;
         }
     }
 
-    return -1
+    return -1;
 }
 
-const faisalIndex = myLastIndexOf(arr, 'faisal', 12)
-console.log(faisalIndex)
+const faisalIndex = myLastIndexOf(arr, 'faisal', 12);
+console.log(faisalIndex);

@@ -1,10 +1,10 @@
 //! filter is an immutable method mean it's return a new array
-console.clear()
+console.clear();
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const evenArr = arr.filter(value => value % 2 === 0)
-// console.log(evenArr)
+const evenArr = arr.filter(value => value % 2 === 0);
+// console.log(evenArr);
 
 /**
  * @title Implementation of filter Method
@@ -17,19 +17,19 @@ const evenArr = arr.filter(value => value % 2 === 0)
  * @returns newArr
  */
 function myFilter(arr, callBack) {
-    let newArr = []
+    let newArr = [];
 
     for (
         let i = 0, len = arr.length;
         i < len; i++
     ) {
         if (callBack(arr[i], i, arr)) {
-            newArr.push(arr[i])
+            newArr.push(arr[i]);
         }
     }
 
-    return newArr
+    return newArr;
 }
 
-const odd = myFilter(arr, value => value % 2 !== 0)
-console.log(odd)
+const odd = myFilter(arr, value => value % 2 !== 0);
+console.log(odd);

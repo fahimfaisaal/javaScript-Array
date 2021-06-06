@@ -1,17 +1,17 @@
-console.clear()
+console.clear();
 
 //* some return a boolean value mean true or false, In this method if one item match the condition it's return true
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const isTen = arr.some((item, index, arr) => {
-    // console.log(item, index, arr)
+    // console.log(item, index, arr);
 
-    return item === 10
+    return item === 10;
 })
 
-const isEleven = arr.some(item => item === 11)
-console.log(isTen, isEleven)
+const isEleven = arr.some(item => item === 11);
+console.log(isTen, isEleven);
 
 /**
  * @title Implementation of some method
@@ -29,13 +29,13 @@ function mySome(array, callback) {
         i < len; i++
     ) {
         if (callback(array[i], i, array)) {
-            return true
+            return true;
         }
     }
 
-    return false
+    return false;
 }
 
-const isNine = mySome(arr, item => item === 9)
-const isLess = mySome(arr, item => item < 0)
-console.log(isNine, isLess)
+const isNine = mySome(arr, item => item === 9);
+const isLess = mySome(arr, item => item < 0);
+console.log(isNine, isLess);

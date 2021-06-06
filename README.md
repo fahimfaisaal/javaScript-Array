@@ -1,6 +1,4 @@
-# Make Fun With javaScript Array
-
-## Implemented Methods of Array ->
+<h1 align="center">[ JavaScript Array ]</h1>
 
 | Methods                                                                                                                      | return                 | callback |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------- | -------- |

@@ -1,11 +1,11 @@
-console.clear()
+console.clear();
 
 //* includes method return a boolean if the passing argument exist in the array
 //* first argument is search element and second parameter is fromIndex (inclusive)
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 'fahim', 12]
-const is10InArr = arr.includes(10, 9)
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 'fahim', 12];
+const is10InArr = arr.includes(10, 9);
 
-console.log(is10InArr)
+console.log(is10InArr);
 
 /**
  * @title Implementation of includes method
@@ -20,12 +20,12 @@ function myIncludes(arr, el, fromIndex = 0) {
         i < len; i++
     ) {
         if (el === arr[i]) {
-            return true
+            return true;
         }
     }
 
-    return false
+    return false;
 }
 
-const isFahimInArr = myIncludes(arr, 'fahim', 10)
-console.log(isFahimInArr)
+const isFahimInArr = myIncludes(arr, 'fahim', 10);
+console.log(isFahimInArr);

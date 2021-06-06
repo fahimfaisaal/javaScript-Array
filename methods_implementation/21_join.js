@@ -1,9 +1,9 @@
-console.clear()
+console.clear();
 
 //* join method return a new string concatenated with passing string
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-let joinArr = arr.join('-')
-console.log(joinArr, arr)
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let joinArr = arr.join('-');
+console.log(joinArr, arr);
 
 /**
  * @title Implementation of join method
@@ -18,11 +18,11 @@ function myJoin(arr, str) {
         let i = 0, len = arr.length;
         i < len; i++
     ) {
-        string += (arr[i] + (i !== len - 1 ? str : ''))
+        string += (arr[i] + (i !== len - 1 ? str : ''));
     }
     
-    return string
+    return string;
 }
 
-let myJoinArr = myJoin(arr, ' |__| ')
-console.log(myJoinArr, arr)
+let myJoinArr = myJoin(arr, ' |__| ');
+console.log(myJoinArr, arr);

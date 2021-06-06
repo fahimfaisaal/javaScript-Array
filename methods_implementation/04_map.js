@@ -1,9 +1,9 @@
 //! map method return a new array mean an immutable array
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const mapArr = arr.map((item, index, array) => {
-    return item * 2
+    return item * 2;
 })
 
 // console.log(mapArr)
@@ -19,17 +19,17 @@ const mapArr = arr.map((item, index, array) => {
  * @returns {immutable Array}
  */
 function myMap(arr, callBack) {
-    let newArr = []
+    let newArr = [];
 
     for (let i = 0, len = arr.length; i < len; i++) {
-        newArr.push(callBack(arr[i], i, arr))
+        newArr.push(callBack(arr[i], i, arr));
     }
 
-    return newArr
+    return newArr;
 }
 
 const mapArr2 = myMap(arr, item => {
-    return item * 2
+    return item * 2;
 })
 // console.log(mapArr2)
 
@@ -45,4 +45,4 @@ const mapAndReduceRight = myMap(arr, (item, index, arr) => {
     }
 })
 
-console.log(mapAndReduceRight)
+console.log(mapAndReduceRight);
